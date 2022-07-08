@@ -109,6 +109,7 @@ button {
   font-size: 0.875rem;
 }
 button:hover {
+  cursor: pointer;
   box-shadow: 2px 8px 7px rgba(0, 0, 0, 0.2);
   background: linear-gradient(180deg, rgb(163, 113, 223) 0%, rgb(254, 133, 220) 100%);
 }
@@ -120,6 +121,7 @@ button:hover {
   padding: 1rem 3rem 1rem 3rem;
 }
 .button-pages:hover {
+  cursor: pointer;
   box-shadow: 2px 8px 7px rgba(0, 0, 0, 0.2);
   background: linear-gradient(180deg, rgb(163, 113, 223) 0%, rgb(254, 133, 220) 100%);
 }
