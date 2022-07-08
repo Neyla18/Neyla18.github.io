@@ -25,7 +25,6 @@
     }
 
   }
-
   .menu-titre {
     border-bottom: solid 0.188rem;
     border-color: #99E2D0;
@@ -34,6 +33,9 @@
 
 
   }
+
+
+
 
   .menu__actuel {
     @include site-bordure;
@@ -49,11 +51,10 @@
 
     &__description {
       padding-left: 0.5rem;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
       width: 80%;
-
-
-
-
 
       p:first-child {
         font-weight: bolder;
@@ -62,6 +63,42 @@
 
 
     }
+
+
+
+    &__prix {
+      align-items: flex-end;
+      display: flex;
+      padding: 1rem;
+
+
+    }
+
+    &__check {
+
+      background-color: #99E2D0;
+      padding: 1.79rem 2.6rem 0.2rem 1.5rem;
+      width: 5%;
+      border-top-right-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin-right: -26%;
+      overflow: hidden;
+
+    }
+
+    i {
+
+      color: #99E2D0;
+      background-color: white;
+      border-radius: 50%;
+      padding: 0.4rem 0.4rem 0.3rem 0.4rem;
+      position: absolute;
+      font-size: 1rem;
+
+
+    }
+
 
   }
 }
