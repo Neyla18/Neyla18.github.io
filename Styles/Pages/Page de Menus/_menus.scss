@@ -22,14 +22,12 @@
       font-size: 1.7rem;
       padding: 2rem;
 
-
-
     }
-
-
   }
 
 }
+
+
 
 .menu-titre {
   border-bottom: solid 0.188rem;
@@ -39,11 +37,11 @@
 
   @media only screen and(min-width:992px) {
     width: 3%;
-
   }
 
-
-
+  @media screen and (min-width:768px) and (max-width: 992px) {
+    width: 5%;
+  }
 }
 
 
@@ -71,7 +69,9 @@
 
     }
 
-
+    @media screen and (min-width:768px) and (max-width: 992px) {
+      width: 76%;
+    }
 
 
 
@@ -83,7 +83,6 @@
 
 
   }
-
 
 
   &__prix {
@@ -112,7 +111,11 @@
     }
 
 
+    @media screen and (min-width:768px) and (max-width: 992px) {
+      padding: 1.79rem 2rem 0.2rem 1.9rem;
+      width: 3%;
 
+    }
 
 
 
@@ -131,9 +134,5 @@
     font-size: 1rem;
 
 
-
   }
-
-
-
 }

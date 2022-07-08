@@ -2,12 +2,22 @@
   background-color: $pageCouleur;
   padding: 3rem 1rem 2rem 1rem;
 
+
+
   &__cartes {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
     border-radius: 1rem;
     margin-bottom: 1.1rem;
     position: relative;
+
+    @media screen and (min-width:768px) and (max-width: 992px) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 62%;
+    }
+
+
 
 
     &__nouveau {
@@ -25,6 +35,9 @@
         left: 10.5rem;
       }
 
+      @media screen and (min-width:768px) and (max-width: 992px) {
+        left: 18.5rem;
+      }
 
     }
 
@@ -50,6 +63,9 @@
 
       }
 
+
+
+
     }
 
     img {
@@ -72,13 +88,5 @@
 .coeur {
   width: 20%;
 
-}
-
-@media only screen and(min-width:992px) {
-  .conteneur {
-
-    display: flex;
-    justify-content: space-between;
-  }
 
 }

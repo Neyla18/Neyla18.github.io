@@ -8,6 +8,10 @@ button {
     box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
     font-size: 0.875rem;
 
+    &:hover {
+        box-shadow: 2px 8px 7px rgba(0, 0, 0, 0.2);
+        background: linear-gradient(180deg, rgba(163, 113, 223, 1) 0%, rgba(254, 133, 220, 1) 100%);
+    }
 }
 
 .button-pages {
@@ -23,6 +27,10 @@ button {
 
     @media only screen and(min-width:992px) {
         left: 80.57vh;
+    }
+
+    @media screen and (min-width:768px) and (max-width: 992px) {
+        left: 18rem;
     }
 
 }
