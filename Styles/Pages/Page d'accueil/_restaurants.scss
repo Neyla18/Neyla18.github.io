@@ -1,0 +1,85 @@
+.restaurant {
+  background-color: $pageCouleur;
+  padding: 3rem 1rem 2rem 1rem;
+
+
+
+  &__cartes {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 1.1rem;
+    position: relative;
+
+
+
+
+
+
+    &__nouveau {
+      @include site-bordure;
+      background-color: $couleurTertiaire;
+      text-align: center;
+      color: #128166;
+      padding: 5px;
+      width: 25%;
+      position: absolute;
+      left: 14.5rem;
+      margin-top: -9.5rem;
+
+
+    }
+
+
+
+    &__img {
+      width: 100%;
+
+
+    }
+
+    &__description {
+      display: flex;
+      margin-left: 1rem;
+      color: black;
+      line-height: 0.4rem;
+      justify-content: space-between;
+
+      .favoris {
+        font-size: 1.9rem;
+        padding: .2em;
+
+
+
+
+
+
+
+
+      }
+
+
+
+
+    }
+
+    img {
+      object-fit: cover;
+      height: 10rem;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+      width: 100%;
+
+
+    }
+
+  }
+
+}
+
+
+
+.coeur {
+  width: 20%;
+
+}
