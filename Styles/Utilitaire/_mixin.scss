@@ -1,0 +1,11 @@
+@mixin site-bordure {
+    border:solid;
+    border-style: none;
+    
+ }
+ 
+ @mixin flex {
+   display: flex;
+   align-items: center;
+ }
+ 

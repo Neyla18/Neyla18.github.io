@@ -1,20 +1,28 @@
-button{
+button {
     @include site-bordure;
-    background: linear-gradient(184deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-    color:white;
+    background: linear-gradient(184deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
+    color: white;
     padding: 1rem 1.2rem 1rem 1.2rem;
     border-radius: 10rem;
     font-weight: bold;
-    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2) ;
-    font-size:0.875rem; 
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
+    font-size: 0.875rem;
 
 }
 
-.button-pages{
+.button-pages {
     position: relative;
     left: 11.51vh;
     top: 6.90vh;
     padding: 1rem 3rem 1rem 3rem;
- 
+
+    &:hover {
+        box-shadow: 2px 8px 7px rgba(0, 0, 0, 0.2);
+        background: linear-gradient(180deg, rgba(163, 113, 223, 1) 0%, rgba(254, 133, 220, 1) 100%);
+    }
+
+    @media only screen and(min-width:992px) {
+        left: 80.57vh;
+    }
 
 }

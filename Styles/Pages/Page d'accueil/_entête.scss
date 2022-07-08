@@ -1,44 +1,43 @@
-.entete{
+.entete {
     @include site-bordure;
-    background-color: adjust-color($color: $pageCouleur,$lightness: 1%);
-    
-    
-    
-    &__recherche{
-    @include site-bordure;
-    background-color: darken($pageCouleur,1%);
-    @include flex;
-    justify-content: center;
-    border-top: 0.125rem  solid rgba(175, 175, 175, 0.26);
-    
-    
-    
-    &__resultat{
-    margin-left: 1rem;
-    
-    
+    background-color: adjust-color($color: $pageCouleur, $lightness: 1%);
+
+
+
+    &__recherche {
+        @include site-bordure;
+        background-color: darken($pageCouleur, 1%);
+        @include flex;
+        justify-content: center;
+        border-top: 0.125rem solid rgba(175, 175, 175, 0.26);
+
+
+
+        &__resultat {
+            margin-left: 1rem;
+
+
+        }
+
+
     }
-    
-    
-    }
-    
-    }
-    
-    .entete__explorer{
+
+}
+
+.entete__explorer {
     padding: 1rem 2rem 3rem 1rem;
     text-align: center;
-    
-    
-    p{
-    font-size: 1.1rem;
-    color: rgb(98, 98, 98);
+
+
+    p {
+        font-size: 1.1rem;
+        color: rgb(98, 98, 98);
     }
-    
-    h1{
-    font-weight: bolder;
-    font-size: 1.5rem;
+
+    h1 {
+        font-weight: bolder;
+        font-size: 1.5rem;
     }
-    
-    
-    }
-    
+
+
+}

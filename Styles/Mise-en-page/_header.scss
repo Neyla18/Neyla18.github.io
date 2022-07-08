@@ -1,48 +1,58 @@
-nav{
-height: 4rem;
-@include site-bordure;
+nav {
+    height: 4rem;
+    @include site-bordure;
 
 
 }
 
-.pages_nav{
+.pages_nav {
     @include flex;
-    
+
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    @media only screen and(min-width:992px) {
+        width: 15%;
     }
-    
 
 
-.logo{
-display: block;
-margin-left:auto;
-margin-right:auto ;
-width: 50%;
-
-
-
-
-
-
-
-img{
-height: 2rem;
-margin-top: 1rem;
-}
+    img {
+        height: 2rem;
+        margin-top: 1rem;
+    }
 
 
 
 }
 
 
-.pages_nav{
-align-items: center;
+.pages_nav {
+    align-items: center;
 
 
 }
 
-.fleche{
-margin-left: 1rem;
+.fleche {
+    margin-left: 1rem;
+
+    @media only screen and(min-width:992px) {
+        margin-left: 2rem;
+
+
+    }
 
 }
 
-
+@media only screen and(min-width:992px) {
+    .logo-pages {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}

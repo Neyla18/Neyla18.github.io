@@ -1,36 +1,39 @@
-footer{
+footer {
   background-color: #353535;
   color: white;
   padding: 1rem 2rem 2rem 2rem;
- line-height: 1.6rem;
+  line-height: 1.6rem;
+
+  a {
+    color: white;
+
+  }
+
+  ul {
+
+    padding-left: 0;
+
+    @media only screen and(min-width:992px) {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
 
 
- 
-a{
-  color:white;
+    }
+
+  }
+
+  h2 {
+
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.3rem;
+    font-weight: normal;
+  }
+
+
 
 }
 
- ul{
-
-  padding-left: 0;
-
-  
- }
-
-h2{
-  
-  font-family: 'Shrikhand', cursive;
-  font-size: 1.3rem;
-  font-weight: normal;
-}
-
-
-
-}
-
-
-.espaces{
+.espaces {
   margin-left: 0.60rem;
 }
-
