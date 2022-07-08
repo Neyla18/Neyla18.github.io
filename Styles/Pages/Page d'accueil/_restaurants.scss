@@ -82,10 +82,22 @@
         &:active {
           animation: coeur-animation 900ms ease-in-out;
 
+
+
+
+
+
         }
 
 
+
+
+
+
       }
+
+
+
 
     }
 
@@ -107,10 +119,29 @@
 }
 
 
+
 .coeur {
   width: 20%;
 
   &:active {
     animation: coeur-animation 1000ms;
+  }
+}
+
+@media only screen and(min-width:992px) {
+  .conteneur {
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+
+
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+  texte-restaurant {
+    text-align: center;
   }
 }

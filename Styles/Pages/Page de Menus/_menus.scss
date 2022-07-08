@@ -10,6 +10,8 @@
   overflow: hidden;
 
 
+
+
   &__entete {
     @include flex;
     justify-content: space-between;
@@ -33,12 +35,6 @@
         -moz-background-clip: text;
         -moz-text-fill-color: transparent;
 
-
-
-
-
-
-
         @media only screen and(min-width:992px) {
 
           animation: coeur-animation 900ms infinite;
@@ -50,22 +46,11 @@
       &:active {
         animation: coeur-animation 900ms ease-in-out;
         -webkit-animation: coeur-animation ease-in-out;
-
-
-
       }
 
     }
-
-
-
-
   }
-
-
-
 }
-
 
 
 .menu-titre {
@@ -94,10 +79,18 @@
   border-radius: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem;
+  animation: apparition 1500ms ease-in-out;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   overflow: hidden;
+  @for $li from 1 to 10 {
+    &--#{$li} {
+      animation-delay: 1500ms / 10 *$li;
+    }
+  }
+
+
 
 
   &__description {
@@ -122,9 +115,6 @@
     p:first-child {
       font-weight: bolder;
     }
-
-
-
   }
 
 
@@ -162,10 +152,6 @@
       width: 3%;
 
     }
-
-
-
-
   }
 
 
@@ -182,13 +168,5 @@
     transition: transform 800ms ease-in-out;
     -webkit-transition: transform 800ms ease-in-out;
 
-
-
-
-
-
   }
-
-
-
 }
