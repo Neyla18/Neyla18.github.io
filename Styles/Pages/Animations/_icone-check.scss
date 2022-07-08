@@ -1,0 +1,51 @@
+
+.menu__actuel{
+
+
+    &:hover {
+    cursor: grab; 
+    
+    
+    .menu__actuel__check{
+    
+    position: static;
+    margin-right: -0%;
+   visibility: visible;
+    
+    }
+    
+    
+    .menu__actuel__description{
+    p:first-child{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    
+    
+    }
+    
+    p:nth-child(2){
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    }
+    
+    
+    
+    }
+    
+    
+    i{
+    
+    transform: rotate(-1turn);
+    position: static;
+    opacity: 1;
+    
+    }
+    
+    
+    }
+    
+    }

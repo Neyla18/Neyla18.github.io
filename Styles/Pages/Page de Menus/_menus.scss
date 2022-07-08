@@ -147,6 +147,8 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-right: -26%;
     overflow: hidden;
+    transition: 900ms;
+    -webkit-transition: 900ms;
     text-align: center;
 
     @media only screen and(min-width:992px) {
@@ -174,8 +176,11 @@
     background-color: white;
     border-radius: 50%;
     padding: 0.4rem 0.4rem 0.3rem 0.4rem;
+    transform: rotate(0turn);
     position: absolute;
     font-size: 1rem;
+    transition: transform 800ms ease-in-out;
+    -webkit-transition: transform 800ms ease-in-out;
 
 
 
