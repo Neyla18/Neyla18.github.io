@@ -1,0 +1,63 @@
+.fonctionnement{
+
+  padding: 1rem 1rem 4rem 1rem;
+  margin-left: 1rem;
+  
+  &__cartes{
+  @include site-bordure;
+  @include flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 1.7rem;
+  background-color: $pageCouleur;
+  margin-bottom:  1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+
+    
+  
+  
+  
+  
+  
+  
+  &__numero{
+  @include site-bordure;
+  background-color: $couleurPrimaire;
+  border-radius: 50%;
+  padding: 0.3rem 0.4rem 0.3rem 0.5rem;
+  align-items: center;
+  width: 4%;
+  color: white;
+  position: absolute;
+  margin-left: -1.3rem;
+  text-align: center;
+  
+  
+  }
+  
+  .icone{
+  font-size: 1.125rem;
+  color: darken($pageCouleur,50%);
+  margin-left: 1.5rem;
+  
+  }
+  
+  
+  &__etapes{
+  margin-left: 5rem;
+  position: absolute;
+  font-size: 1rem;
+  font-weight: bold;
+  }
+  
+  
+  i{
+  color:grey;
+  }
+  }
+  
+  
+  }
+  
