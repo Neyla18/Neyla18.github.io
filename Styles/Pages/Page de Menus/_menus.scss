@@ -9,6 +9,7 @@
   margin-top: 5rem;
   overflow: hidden;
 
+
   &__entete {
     @include flex;
     justify-content: space-between;
@@ -22,6 +23,38 @@
       font-size: 1.7rem;
       padding: 2rem;
 
+      &:hover {
+
+        font-weight: bold;
+        background-image: linear-gradient(184deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+
+
+
+
+
+
+
+        @media only screen and(min-width:992px) {
+
+          animation: coeur-animation 900ms infinite;
+          -webkit-animation: coeur-animation 900ms infinite;
+        }
+
+      }
+
+      &:active {
+        animation: coeur-animation 900ms ease-in-out;
+        -webkit-animation: coeur-animation ease-in-out;
+
+
+
+      }
+
     }
 
 
@@ -30,7 +63,10 @@
   }
 
 
+
 }
+
+
 
 .menu-titre {
   border-bottom: solid 0.188rem;
@@ -48,6 +84,8 @@
   }
 
 }
+
+
 
 
 .menu__actuel {
