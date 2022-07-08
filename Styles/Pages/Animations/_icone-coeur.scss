@@ -1,0 +1,60 @@
+@keyframes coeur-animation{   
+
+    0%{
+    
+    background: linear-gradient(360deg, rgba(225,111,219,1) 0%, rgba(166,92,220,1) 5%, rgba(255,255,255,1) 6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    }
+    
+    
+    15%{
+    
+    background: linear-gradient(360deg, rgba(225,111,219,1) 0%, rgba(166,92,220,1) 11%, rgba(255,255,255,1) 11%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    
+    }
+    
+    25%{
+    
+    background: linear-gradient(360deg, rgba(225,111,219,1) 0%, rgba(166,92,220,1) 24%, rgba(255,255,255,1) 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    }
+    50%{
+    
+    background: linear-gradient(360deg, rgba(225,111,219,1) 0%, rgba(166,92,220,1) 45%, rgba(255,255,255,1) 47%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    }
+    75%{
+    
+    background: linear-gradient(360deg, rgba(225,111,219,1) 0%, rgba(166,92,220,1) 62%, rgba(255,255,255,1) 63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    }
+    
+    80%{
+    
+    background: linear-gradient(360deg, rgba(225,111,219,1) 0%, rgba(166,92,220,1) 82%, rgba(255,255,255,1) 83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    }
+    100%{
+    opacity: 1;
+    }
+    }
+    

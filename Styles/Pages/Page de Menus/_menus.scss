@@ -23,11 +23,14 @@
       padding: 2rem;
 
     }
+
+
+
+
   }
 
+
 }
-
-
 
 .menu-titre {
   border-bottom: solid 0.188rem;
@@ -37,11 +40,13 @@
 
   @media only screen and(min-width:992px) {
     width: 3%;
+
   }
 
   @media screen and (min-width:768px) and (max-width: 992px) {
     width: 5%;
   }
+
 }
 
 
@@ -83,6 +88,7 @@
 
 
   }
+
 
 
   &__prix {
@@ -134,5 +140,12 @@
     font-size: 1rem;
 
 
+
+
+
+
   }
+
+
+
 }

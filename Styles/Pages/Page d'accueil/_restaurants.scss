@@ -20,6 +20,7 @@
 
 
 
+
     &__nouveau {
       @include site-bordure;
       background-color: $couleurTertiaire;
@@ -60,11 +61,31 @@
         font-size: 1.9rem;
         padding: .2em;
 
+        &:hover {
+
+          font-weight: bold;
+          background-image: linear-gradient(184deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -moz-background-clip: text;
+          -moz-text-fill-color: transparent;
+
+
+          @media only screen and(min-width:992px) {
+
+            animation: coeur-animation 900ms infinite
+          }
+
+        }
+
+        &:active {
+          animation: coeur-animation 900ms ease-in-out;
+
+        }
+
 
       }
-
-
-
 
     }
 
@@ -85,8 +106,11 @@
 
 }
 
+
 .coeur {
   width: 20%;
 
-
+  &:active {
+    animation: coeur-animation 1000ms;
+  }
 }
