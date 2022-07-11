@@ -1,26 +1,26 @@
-@keyframes loader {
-  0% {
-    transform: rotate(0turn);
-
+@keyframes apparaitre {
+  from {
+      opacity: 0;
   }
-
-  100% {
-    transform: rotate(1turn);
+  to {
+      opacity: 1;
   }
 }
 
-
-
-@keyframes fermeture {
-  0% {
-    opacity: 1;
-    height: 100%;
+@keyframes cacher {
+  from {
+      transform: translate(0);
   }
-
-  100% {
-    opacity: 1;
-    height: 100%;
+  to {
+      transform: translate(-9999px);
   }
 }
-    
- 
+
+@keyframes tourner {
+  from {
+      transform: rotate(0);
+  }
+  to {
+      transform: rotate(2turn);
+  }
+}
